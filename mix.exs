@@ -41,7 +41,7 @@ defmodule Swarm.Mixfile do
   defp deps do
     [
       {:ex_doc, "~> 0.13", only: :dev},
-      {:dialyxir, "~> 0.3", only: :dev},
+      {:dialyxir, "~> 0.5", only: :dev},
       {:benchee, "~> 0.4", only: :dev},
       {:porcelain, "~> 2.0", only: [:dev, :test]},
       {:libring, "~> 1.0"},
